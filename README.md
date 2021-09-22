@@ -12,3 +12,5 @@ https://hlgoins.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Haley
+
+### ©️2019 Run Buddy, Inc 
