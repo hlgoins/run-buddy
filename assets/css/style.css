@@ -5,12 +5,12 @@
 }
 
 body {
-    /* i'm a CSS comment! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* HEADER / NAV BAR STYLES START */
+
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -44,6 +44,12 @@ header nav ul li a{
     font-size: 22px;
 }
 
+/* HEADER / NAVBAR STYLES END */
+
+
+
+/* FOOTER STYLES START */
+
 footer{
     background: #fce138;
     width: 100%;
@@ -67,17 +73,24 @@ footer a{
     color: #024e76;
 }
 
+/* END FOOTER STYLES */
+
+
+
+/* STYLE ALL SECTION TAGS */
+
 section{
     padding: 60px;
 }
 
-/* hero style starts */
+/* HERO STYLES START */
 .hero{
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 600px;
 }
 
 .hero-form{
@@ -122,25 +135,11 @@ margin: 0 5px;
     font-size: 16px;
 }
 
-/* hero style end */
+/* HERO STYLES END */
 
-.intro{
-    text-align: center;
-}
 
-.intro p{
-    /* add this alongside your other declarations */
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
 
-.steps{
-    text-align: center;
-    background: #fce138;
-}
+/* SECTION TITLE STYLES START */
 
 .section-title{
     font-size: 55px;
@@ -157,6 +156,36 @@ margin: 0 5px;
 
 .secondary-border{
     border-color: #39a6b2;
+}
+
+/* SECTION TITLE STYLES END */
+
+
+
+
+/* WHAT WE DO STYLES */
+
+.intro{
+    text-align: center;
+}
+
+.intro p{
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* WHAT YOU DO STYLES END */
+
+
+
+/* WHAT YOU DO STYLES START */
+
+.steps{
+    text-align: center;
+    background: #fce138;
 }
 
 .steps div {
@@ -183,6 +212,13 @@ margin: 0 5px;
     font-size: 38px;
   }
 
+/* WHAT YOU DO STYLES END */
+
+
+
+
+/* MEET THE TRAINERS START */
+
   .trainers {
     text-align: center;
   }
@@ -206,14 +242,6 @@ margin: 0 5px;
     width: 65%;
   }
 
-  .text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-
   .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -229,6 +257,9 @@ margin: 0 5px;
     font-size: 17px;
     line-height: 1.3;
   }
+  /* TRAINER STYLES END */
+
+
 
 /* REACH OUT STYLES START */
   .contact{
@@ -251,7 +282,7 @@ margin: 0 5px;
       vertical-align: top;
       text-align: left;
       margin: 30px 0 0 60px;
-      color: #ffffff;
+      color: #white;
   }
 
   .contact-info h3{
@@ -270,3 +301,14 @@ margin: 0 5px;
       color:#fce138;
   }
   /* REACH OUT STYLES END */
+
+  
+
+/* UTILITIES */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
