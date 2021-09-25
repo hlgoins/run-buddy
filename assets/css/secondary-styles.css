@@ -1,3 +1,4 @@
+/* SECONDARY PAGE STYLES */
 .hero {
     background-position: bottom;
     height: auto;
@@ -23,13 +24,13 @@
 
   .secondary-content h3{
       font-size: 25px;
-      margin: 20px 0px;
+      margin: 20px 0;
   }
 
   .secondary-content p{
       font-size: 16px;
       line-height: 1.5;
-      margin: 20px 0px;
+      margin: 20px 0;
   }
 
   .secondary-content ul{
